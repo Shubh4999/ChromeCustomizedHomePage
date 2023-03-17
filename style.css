@@ -458,12 +458,6 @@ button, a, input {
 .social-button--linkedin::after {
   background: #0077b5;
 }
-.social-button--github {
-  color: #6e5494;
-}
-.social-button--github::after {
-  background: #6e5494;
-}
 .social-button--twitter {
   color: #55acee;
 }
