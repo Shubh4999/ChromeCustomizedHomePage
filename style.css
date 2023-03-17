@@ -476,12 +476,6 @@ button, a, input {
 .social-button--steam::after {
   background: #7da10e;
 }
-.social-button--snapchat {
-  color: #eec900;
-}
-.social-button--snapchat::after {
-  background: #eec900;
-}
 .social-button--twitter {
   color: #55acee;
 }
