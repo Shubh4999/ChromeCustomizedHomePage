@@ -987,6 +987,22 @@ li.dropdown-list-item {
   }
 }
 
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box {
+  width: 45%;
+  height: 200px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+
+
 h3{
 font-family: 'Pacifico', cursive;
 font-weight: 100;
@@ -1042,15 +1058,3 @@ text-align: center;
   margin-top: 15px;
 }
 
-.searchContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.box {
-  width: 45%;
-  height: 200px;
-  background-color: #f2f2f2;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
