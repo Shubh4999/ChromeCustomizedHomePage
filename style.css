@@ -464,18 +464,6 @@ button, a, input {
 .social-button--github::after {
   background: #6e5494;
 }
-.social-button--codepen {
-  color: #212121;
-}
-.social-button--codepen::after {
-  background: #212121;
-}
-.social-button--steam {
-  color: #7da10e;
-}
-.social-button--steam::after {
-  background: #7da10e;
-}
 .social-button--twitter {
   color: #55acee;
 }
