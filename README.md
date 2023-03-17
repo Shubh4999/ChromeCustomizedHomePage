@@ -335,7 +335,6 @@ Original Url:
 
 
 # style.css
-
 ```css
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 :root {
