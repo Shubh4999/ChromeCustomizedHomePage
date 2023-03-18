@@ -476,12 +476,7 @@ button, a, input {
 .social-button--instagram::after {
   background: #e4405f;
 }
-.social-button--npmjs {
-  color: #c12127;
-}
-.social-button--npmjs::after {
-  background: #c12127;
-}
+
 
 /* animated logo effect */
 
