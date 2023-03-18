@@ -8,6 +8,9 @@ Original Url:
 
 [License](https://codepen.io/license/pen/ZEMRwMx).
 
+Style.css
+Original Url:
+[https://github.com/ShubhKhandelwal69/mithididimobile#stylecss](https://github.com/ShubhKhandelwal69/mithididimobile#stylecss)
 
 # index.html
 
