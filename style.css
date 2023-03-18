@@ -446,6 +446,12 @@ button, a, input {
 .social-button--facebook::after {
   background: #3b5999;
 }
+.social-button--whatsapp {
+  color: #25D366;
+}
+.social-button--whatsapp::after {
+  background: #25D366;
+}
 .social-button--telegram {
   color: #0088cc;
 }
