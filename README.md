@@ -643,6 +643,12 @@ button, a, input {
 .social-button--facebook::after {
   background: #3b5999;
 }
+.social-button--whatsapp {
+  color: #25D366;
+}
+.social-button--whatsapp::after {
+  background: #25D366;
+}
 .social-button--telegram {
   color: #0088cc;
 }
@@ -661,18 +667,19 @@ button, a, input {
 .social-button--twitter::after {
   background: #55acee;
 }
+.social-button--bilibili {
+  color: #233454;
+}
+.social-button--bilibili::after {
+  background: #233454;
+}
 .social-button--instagram {
   color: #e4405f;
 }
 .social-button--instagram::after {
   background: #e4405f;
 }
-.social-button--npmjs {
-  color: #c12127;
-}
-.social-button--npmjs::after {
-  background: #c12127;
-}
+
 
 /* animated logo effect */
 
