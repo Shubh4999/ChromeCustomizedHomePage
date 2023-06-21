@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Copy to Clipboard</title>
+    <script>
+        function copyToClipboard() {
+            var copyText = `[
+                {
+                    "domain": ".hotstar.com",
+                    "expirationDate": 1695126173,
+                    "hostOnly": false,
+                    "httpOnly": false,
+                    "name": "_fbp",
+                    "path": "/",
+                    "sameSite": "lax",
+                    "secure": false,
+                    "session": false,
+                    "storeId": "0",
+                    "value": "fb.1.1687350172653.295205961",
+                    "id": 1
+                },
+                {
+                    "domain": ".hotstar.com",
+                    "expirationDate": 1721910172.48765,
+                    "hostOnly": false,
+                    "httpOnly": false,
+                    "name": "_ga",
+                    "path": "/",
+                    "sameSite": "unspecified",
+                    "secure": false,
+                    "session": false,
+                    "storeId": "0",
+                    "value": "GA1.1.2122824875.1687350172",
+                    "id": 2
+                },
+                {
+                    "domain": ".hotstar.com",
+                    "expirationDate": 1721910172.483117,
+                    "hostOnly": false,
+                    "httpOnly": false,
+                    "name": "_ga_QV5FD29XJC",
+                    "path": "/",
+                    "sameSite": "unspecified",
+                    "secure": false,
+                    "session": false,
+                    "storeId": "0",
+                    "value": "GS1.1.1687350086.1.1.1687350172.45.0.0",
+                    "id": 3
+                },
+                {
+                    "domain": ".hotstar.com",
+                    "expirationDate": 1695126172,
+                    "hostOnly": false,
+                    "httpOnly": false,
+                    "name": "_gcl_au",
+                    "path": "/",
+                    "sameSite": "unspecified",
+                    "secure": false,
+                    "session": false,
+                    "storeId": "0",
+                    "value": "1.1.413476747.1687350172",
+                    "id": 4
+                },
+                {
+                    "domain": ".hotstar.com",
+                    "expirationDate": 1687436572,
+                    "hostOnly": false,
+                    "httpOnly": false,
+                    "name": "_gid",
+                    "path": "/",
+                    "sameSite": "unspecified",
+                    "secure": false,
+                    "session": false,
+                    "storeId": "0",
+                    "value": "GA1.2.592640681.1687350172",
+                    "id": 5
+                },
+                {
+                    "domain": ".hotstar.com",
+                    "expirationDate": 1687436572,
+                    "hostOnly": false,
+                    "httpOnly": false,
+                    "name": "_uetsid",
+                    "path": "/",
+                    "sameSite": "unspecified",
+                    "secure": false,
+                    "session": false,
+                    "storeId": "0",
+                    "value": "2517fb20102e11ee8ecb4d767047b194",
+                    "id": 6
+                },
+                {
+                    "domain": ".hotstar.com",
+                    "expirationDate": 1721046172,
+                    "hostOnly": false,
+                    "httpOnly": false,
+                    "name": "_uetvid",
+                    "path": "/",
+                    "sameSite": "unspecified",
+                    "secure": false,
+                    "session": false,
+                    "storeId": "0",
+                    "value": "251a2490102e11eea6fbf110ec421bb7"
+                }
+            ]`;
+
+            var dummyElement = document.createElement("textarea");
+            document.body.appendChild(dummyElement);
+            dummyElement.value = copyText;
+            dummyElement.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummyElement);
+
+            alert("Text copied to clipboard!");
+        }
+    </script>
+</head>
+<body>
+    <button onclick="copyToClipboard()">Copy Text</button>
+</body>
+</html>
