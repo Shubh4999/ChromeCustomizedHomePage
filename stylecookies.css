@@ -1,0 +1,8 @@
+textarea {
+    /* make textarea look like paragraph */
+    border: none;
+    overflow: auto;
+    outline: none;
+    box-shadow: none;
+    resize: none;
+}
