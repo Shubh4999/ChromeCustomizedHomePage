@@ -459,10 +459,10 @@ button, a, input {
   background: #0088cc;
 }
 .social-button--twitter {
-  
+  color: #233454;
 }
 .social-button--twitter::after {
-  
+  background: #233454;
 }
 .social-button--bilibili {
   color: #233454;
