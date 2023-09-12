@@ -65,22 +65,9 @@
         
         
         <a style="display: inline-block;">
-          <h3 class="txt-ne" style=" margin-left: 11%; margin-bottom: 12%;" data-text="Developer Rahul"><div id="editable-text" contenteditable="true" >Click The Text If you want to edit it</div>
+          <h3 class="txt-ne" style=" margin-left: 11%; margin-bottom: 12%;" data-text="Developer Rahul">Click The Text If you want to edit it
           </h3>
         </a>
-<script>
-const editableText= document.getElementById('editable-text');
-
-if(localStorage.getItem('savedText')){
-  editableText.textContent=localStorage.getItem('savedText');
-}
-
-
-editableText.addEventListener('input', function(){
-
-  localStorage.setItem('savedText',this.textContent);
-})
-</script>
 
         
 
