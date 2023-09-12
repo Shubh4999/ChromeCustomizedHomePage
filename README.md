@@ -20,7 +20,7 @@ Original Url:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport">
-  <title>Mithi Didi Mobile</title>
+  <title>Chrome Customized Homepage</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -78,11 +78,28 @@ Original Url:
               <i class="fa-brands fa-bilibili" aria-hidden="true"></i>
               </a>
             </div></div>
-            </div>
+        </div>
         
-          
         
- 
+        <a style="display: inline-block;">
+          <h3 class="txt-ne" style=" margin-left: 11%; margin-bottom: 12%;" data-text="Developer Rahul"><div id="editable-text" contenteditable="true" >Click The Text If you want to edit it</div>
+          </h3>
+        </a>
+<script>
+const editableText= document.getElementById('editable-text');
+
+if(localStorage.getItem('savedText')){
+  editableText.textContent=localStorage.getItem('savedText');
+}
+
+
+editableText.addEventListener('input', function(){
+
+  localStorage.setItem('savedText',this.textContent);
+})
+</script>
+
+        
 
 
         
@@ -110,11 +127,11 @@ Original Url:
 
 
         <div id="apps-container">
-          <a href="https://123series.net/home">
+          <a href="https://123serieshd.ru/home">
             <img src="https://iili.io/HXL1c4p.png" style="height: 24px; width: 24px;">
             <div class="label">
               <span class="name">123series</span>
-              <span class="url">123series.net</span>
+              <span class="url">123serieshd.ru</span>
             </div>
           </a>
 
@@ -191,7 +208,8 @@ Original Url:
 <!-- partial -->
   
 </body>
-</html>```
+</html>
+```
 
 # style.css
 ```css
@@ -655,12 +673,6 @@ button, a, input {
 .social-button--telegram::after {
   background: #0088cc;
 }
-.social-button--linkedin {
-  color: #0077b5;
-}
-.social-button--linkedin::after {
-  background: #0077b5;
-}
 .social-button--twitter {
   color: #55acee;
 }
@@ -679,7 +691,6 @@ button, a, input {
 .social-button--instagram::after {
   background: #e4405f;
 }
-
 
 /* animated logo effect */
 
@@ -1189,6 +1200,61 @@ li.dropdown-list-item {
   100% {
       background: #00aad4;  
   }
+}
+
+h3{
+font-family: 'Pacifico', cursive;
+font-weight: 100;
+margin: 0px;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  color: #fff;
+  font-size: 30px;
+  text-shadow: 0px 0px 20px #00aad4;
+  -webkit-animation: blinkH1 5s  infinite;
+  animation: blinkH1 5s  infinite;
+}
+
+h3:after{
+content: attr(data-text);
+position: absolute;
+top: 0;
+left: 0;
+color: #00aad4;
+  z-index: -1;
+  filter: blur(15px);
+  -webkit-animation: blinkH1After 5s  infinite;
+  animation: blinkH1After 5s  infinite;
+}
+
+h3:before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #00aad4;
+z-index: -2;
+opacity: 0.7;
+  filter: blur(50px);
+  -webkit-animation: blinkH1Before 5s  infinite;
+  animation: blinkH1Before 5s  infinite;
+}
+
+h3.txt-by{
+z-index: 2;
+font-size: 30px;
+top: calc(50% - 55px);
+}
+
+h3.txt-ne{
+top: calc(50% + 5px);
+text-align: center;
+  line-height: 1;
+  margin-top: 15px;
 }
 
 .searchContainer {
