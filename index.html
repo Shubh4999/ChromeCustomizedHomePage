@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <title>Chrome Customized Homepage</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+  <div id="main-wrapper" class="fancy-scrollbar">
+    <div id="main">
+      <div id="content">
+        <div id="links-container"  style="padding-left: 30%; padding-right: 30%;">
+          <a href="https://gmail.com">Gmail</a>
+   <a href="https://www.theanimecentreindia.tech">My site</a>
+   <a href="https://codepen.io/ShubhKhandelwal69/pen/ZEMRwMx">Code of This Project</a>
+        </div>
+      <div class="mycontainer" style="padding-left: 30%; padding-right: 30%; padding-top: 1%;">
+        <div id="header-container">
+          <div class='parent'>
+            <div class='child'><main>
+              <div class="atom">
+                  <div class="electron"></div>
+                  <div class="electron-alpha"></div>
+                  <div class="electron-omega"></div>
+              </div>
+          </main></div>
+            <div class="social-buttons">
+  
+              <a href="mailto:" class="social-button--mail" aria-label="Mail">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="https://www.instagram.com/" class="social-button social-button--instagram" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.youtube.com/" class="social-button social-button--youtube" aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a href="https://www.facebook.com/" class="social-button social-button--facebook" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://web.whatsapp.com/" class="social-button social-button--whatsapp" aria-label="Whatsapp">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                </a>
+              <a href="https://t.me/TheAnimeCentreDiscussions" class="social-button social-button--telegram" aria-label="Telegram">
+                <i class="fa-brands fa-telegram"></i>
+                </a>
+              <a href="https://www.twitter.com/" class="social-button social-button--twitter" aria-label="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://www.bilibili.tv/en/space/1678321485" class="social-button social-button--bilibili" aria-label="Bilibili">
+              <i class="fa-brands fa-bilibili" aria-hidden="true"></i>
+              </a>
+            </div></div>
+        </div>
+        
+        
+        <a style="display: inline-block;">
+          <h3 class="txt-ne" style=" margin-left: 11%; margin-bottom: 12%;" data-text="Developer Rahul"><div id="editable-text" contenteditable="true" >Click The Text If you want to edit it</div>
+          </h3>
+        </a>
+<script>
+const editableText= document.getElementById('editable-text');
+
+if(localStorage.getItem('savedText')){
+  editableText.textContent=localStorage.getItem('savedText');
+}
+
+
+editableText.addEventListener('input', function(){
+
+  localStorage.setItem('savedText',this.textContent);
+})
+</script>
+
+        
+
+
+        
+<div id="search-container" style="margin-top: 5%;">
+          <div id="search-input-container">
+            <img src="https://assets.codepen.io/1468070/Google+G+Icon.png" alt="" />
+            <input type="text" placeholder="Search anything" id="search" />
+          </div>
+
+          <button id="image-button" onclick="googleSearch();" type="button">
+            <i class="fa-regular fa-search"></i>
+          </button>
+
+          <button id="mic-button" type="button">
+            <i class="fa-regular fa-microphone"></i>
+          </button>
+
+     
+      
+          </div>
+          
+          
+ 
+
+
+
+        <div id="apps-container">
+          <a href="https://123serieshd.ru/home">
+            <img src="https://iili.io/HXL1c4p.png" style="height: 24px; width: 24px;">
+            <div class="label">
+              <span class="name">123series</span>
+              <span class="url">123serieshd.ru</span>
+            </div>
+          </a>
+
+          <a href="https://chat.openai.com">
+            <svg xmlns="http://www.w3.org/2000/svg" width="671.194" height="680.2487" viewBox="0 0 671.194 680.2487"><path d="M626.9464,278.4037a169.4492,169.4492,0,0,0-14.5642-139.187A171.3828,171.3828,0,0,0,427.7883,56.9841,169.45,169.45,0,0,0,299.9746.0034,171.3985,171.3985,0,0,0,136.4751,118.6719,169.5077,169.5077,0,0,0,23.1574,200.8775,171.41,171.41,0,0,0,44.2385,401.845,169.4564,169.4564,0,0,0,58.8021,541.0325a171.4,171.4,0,0,0,184.5945,82.2318A169.4474,169.4474,0,0,0,371.21,680.2454,171.4,171.4,0,0,0,534.7642,561.51a169.504,169.504,0,0,0,113.3175-82.2063,171.4116,171.4116,0,0,0-21.1353-200.9ZM371.2647,635.7758a127.1077,127.1077,0,0,1-81.6027-29.5024c1.0323-.5629,2.8435-1.556,4.0237-2.2788L429.13,525.7575a22.0226,22.0226,0,0,0,11.1306-19.27V315.5368l57.25,33.0567a2.0332,2.0332,0,0,1,1.1122,1.568V508.2972A127.64,127.64,0,0,1,371.2647,635.7758ZM97.3705,518.7985a127.0536,127.0536,0,0,1-15.2074-85.4256c1.0057.6037,2.7624,1.6768,4.0231,2.4012L221.63,514.01a22.04,22.04,0,0,0,22.2492,0L409.243,418.5281v66.1134a2.0529,2.0529,0,0,1-.818,1.7568l-136.92,79.0534a127.6145,127.6145,0,0,1-174.134-46.6532ZM61.7391,223.1114a127.0146,127.0146,0,0,1,66.3545-55.8944c0,1.1667-.067,3.2329-.067,4.6665V328.3561a22.0038,22.0038,0,0,0,11.1173,19.2578l165.3629,95.4695-57.2481,33.055a2.0549,2.0549,0,0,1-1.9319.1752l-136.933-79.1215A127.6139,127.6139,0,0,1,61.7391,223.1114ZM532.0959,332.5668,366.7308,237.0854l57.25-33.0431a2.0455,2.0455,0,0,1,1.93-.1735l136.934,79.0535a127.5047,127.5047,0,0,1-19.7,230.055V351.8247a21.9961,21.9961,0,0,0-11.0489-19.2579Zm56.9793-85.7589c-1.0051-.6174-2.7618-1.6769-4.0219-2.4L449.6072,166.1712a22.07,22.07,0,0,0-22.2475,0L261.9963,261.6543V195.5409a2.0529,2.0529,0,0,1,.818-1.7567l136.9205-78.988a127.4923,127.4923,0,0,1,189.34,132.0117ZM230.8716,364.6456,173.6082,331.589a2.0321,2.0321,0,0,1-1.1122-1.57V171.8835A127.4926,127.4926,0,0,1,381.5636,73.9884c-1.0322.5633-2.83,1.5558-4.0236,2.28L242.0957,154.5044a22.0025,22.0025,0,0,0-11.1306,19.2566Zm31.0975-67.0521L335.62,255.0559l73.6488,42.51v85.0481L335.62,425.1266l-73.6506-42.5122Z"/></svg>
+            <div class="label">
+              <span class="name">Chat GPT</span>
+              <span class="url">chat.openai.com</span>
+            </div>
+          </a>
+
+          <a href="https://rewards.microsoft.com">
+            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x32_16-microsoft"><g><rect height="215.65" style="fill:#F25022;" width="215.648" x="30.905" y="30.904"/><rect height="215.65" style="fill:#7FBA00;" width="215.648" x="265.446" y="30.904"/><rect height="215.651" style="fill:#00A4EF;" width="215.648" x="30.905" y="265.444"/><rect height="215.651" style="fill:#FFB900;" width="215.648" x="265.446" y="265.444"/></g></g><g id="Layer_1"/></svg>
+            <div class="label">
+              <span class="name">Microsoft Rewards</span>
+              <span class="url">rewards.microsoft.com/</span>
+            </div>
+          </a>
+          <a href="https://youtube.com">
+            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x33_95-youtube"><g><path d="M476.387,144.888c-5.291-19.919-20.878-35.608-40.67-40.933C399.845,94.282,256,94.282,256,94.282    s-143.845,0-179.719,9.674c-19.791,5.325-35.378,21.013-40.668,40.933c-9.612,36.105-9.612,111.438-9.612,111.438    s0,75.334,9.612,111.438c5.29,19.92,20.877,34.955,40.668,40.281C112.155,417.719,256,417.719,256,417.719    s143.845,0,179.717-9.674c19.792-5.326,35.379-20.361,40.67-40.281c9.612-36.104,9.612-111.438,9.612-111.438    S485.999,180.994,476.387,144.888z" style="fill:#FF0000;"/><polygon points="208.954,324.723 208.954,187.93 329.18,256.328   " style="fill:#FFFFFF;"/></g></g><g id="Layer_1"/></svg>
+            <div class="label">
+              <span class="name">YouTube</span>
+              <span class="url">youtube.com/</span>
+            </div>
+          </a>
+          <a href="https://spotify.com">
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="48px" viewBox="0 0 48 48" version="1.1"><title>Spotify-color</title><g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Color-" transform="translate(-200.000000, -460.000000)" fill="#00DA5A"><path d="M238.16 481.36c-7.68-4.56-20.52-5.04-27.84-2.76-1.2.36-2.4-.36-2.76-1.44-.36-1.2.36-2.4 1.44-2.76 8.52-2.52 22.56-2.04 31.44 3.24 1.08.6 1.44 2.04.84 3.12-.6.84-2.04 1.2-3.12.6m-.24 6.72c-.6.84-1.68 1.2-2.52.6-6.48-3.96-16.32-5.16-23.88-2.76-.96.24-2.04-.24-2.28-1.2-.24-.96.24-2.04 1.2-2.28 8.76-2.64 19.56-1.32 27 3.24.72.36 1.08 1.56.48 2.4m-2.88 6.6c-.48.72-1.32.96-2.04.48-5.64-3.48-12.72-4.2-21.12-2.28-.84.24-1.56-.36-1.8-1.08-.24-.84.36-1.56 1.08-1.8 9.12-2.04 17.04-1.2 23.28 2.64.84.36.96 1.32.6 2.04M224 460c-13.2 0-24 10.8-24 24s10.8 24 24 24 24-10.8 24-24-10.68-24-24-24" id="Spotify"/></g></g><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description about="https://iconscout.com/legal#licenses" dc:title="spotify,color" dc:description="spotify,color" dc:publisher="Iconscout" dc:date="2017-09-14" dc:format="image/svg+xml" dc:language="en"><dc:creator><rdf:Bag><rdf:li>Alexis Doreau</rdf:li></rdf:Bag></dc:creator></rdf:Description></rdf:RDF></metadata></svg>
+            <div class="label">
+              <span class="name">Spotify</span>
+              <span class="url">spotify.com</span>
+            </div>
+          </a>
+         
+          <a href="https://netflix.com">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#AD080F" d="m10.17 13.46-.01 5.06c0 4.81-.01 5.08-.06 5.08-.18 0-1.7.1-2.21.15-.33.03-1 .1-1.48.16-.49.06-.89.1-.9.09 0-.01-.01-5.41-.01-12.01V0l4.67 13.46zM18.49.01h-4.63l-.01 5.31v5.329l4.63 13.341c.02-.01.02-5.42.02-12.01L18.49.01z"/><path fill="#DF0D12" d="M18.48 23.99h-.04c-.08 0-.24-.01-.43-.03-1.07-.13-2.48-.26-3.62-.31-.37-.02-.68-.04-.69-.04 0 0-.29-.84-.84-2.41-.53-1.53-1.31-3.77-2.32-6.68l-.37-1.06L5.5 0h4.65l.2.57.88 2.53 7.25 20.89z"/></svg>
+            <div class="label">
+              <span class="name">Netflix</span>
+              <span class="url">netflix.com</span>
+            </div>
+          </a>
+        
+          <a href="#">
+            <i class="fa-brands fa-github"></i>
+            <div class="label">
+              <span class="name">Github</span>
+              <span class="url">github.com</span>
+            </div>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-xbox"></i>
+            <div class="label">
+              <span class="name">Xbox</span>
+              <span class="url">xbox.com</span>
+            </div>
+          </a>
+        </div>
+      </div>
+  </div>
+  </div>
+</div>
+<!-- partial -->
+  <script>
+    function googleSearch()
+    {
+        var text=document.getElementById("search").value;
+        var cleanQuery = text.replace(" ","+",text);
+        var url='http://www.google.com/search?q='+cleanQuery;
+    
+        window.location.href=url;
+    }
+    </script>
+  <script src='https://codepen.io/Hyperplexed/pen/xxYJYjM/54407644e24173ad6019b766443bf2a6.js'></script>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
