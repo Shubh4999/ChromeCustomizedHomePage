@@ -55,7 +55,7 @@
                 <i class="fa-brands fa-telegram"></i>
                 </a>
               <a href="https://www.twitter.com/" class="social-button social-button--twitter" aria-label="Twitter">
-                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-twitter"></i>
               </a>
               <a href="https://www.bilibili.tv/en/space/1678321485" class="social-button social-button--bilibili" aria-label="Bilibili">
               <i class="fa-brands fa-bilibili" aria-hidden="true"></i>
@@ -65,9 +65,22 @@
         
         
         <a style="display: inline-block;">
-          <h3 class="txt-ne" style=" margin-left: 11%; margin-bottom: 12%;" data-text="Developer Rahul">Click The Text If you want to edit it
+          <h3 class="txt-ne" style=" margin-left: 11%; margin-bottom: 12%;" data-text="Developer Rahul"><div id="editable-text" contenteditable="true" >Click The Text If you want to edit it</div>
           </h3>
         </a>
+<script>
+const editableText= document.getElementById('editable-text');
+
+if(localStorage.getItem('savedText')){
+  editableText.textContent=localStorage.getItem('savedText');
+}
+
+
+editableText.addEventListener('input', function(){
+
+  localStorage.setItem('savedText',this.textContent);
+})
+</script>
 
         
 
